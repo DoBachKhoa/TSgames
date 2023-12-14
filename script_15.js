@@ -270,7 +270,7 @@ canvas.appendChild(document.createElement('br'));
 home.addEventListener('click', homepage);
 wiki.addEventListener('click', wikipage);
 function homepage() {
-    location.replace('index_main.html');
+    location.replace('index.html');
 }
 function wikipage() {
     window.open('https://en.wikipedia.org/wiki/15_puzzle', '_blank');

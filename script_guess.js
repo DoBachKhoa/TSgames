@@ -232,7 +232,7 @@ function updatemove() {
 home.addEventListener('click', homepage);
 more.addEventListener('click', wikipage);
 function homepage() {
-  location.replace('index_main.html');
+  location.replace('index.html');
 }
 function wikipage() {
   window.open('https://en.wikipedia.org/wiki/Mastermind_(board_game)', '_blank');
